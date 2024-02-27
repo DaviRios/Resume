@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif
+}
+
+main{
+    max-width: 1000px;
+}
+
+h1{
+    color: #001F3F;
+}
+
+h2{
+    color:#001F3F;
+}
+
+strong{
+    color:#5BC0DE;
+}
+
+p{
+    color: #555555;
+
+}
+
+li{
+    color: #555555;
+}
