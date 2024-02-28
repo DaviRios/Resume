@@ -1,28 +1,100 @@
-body{
-    font-family: 'Times New Roman', Times, serif
+body {
+    margin: 20px 20%;
+    background-color: #F1F1F1;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
 }
 
 main{
-    max-width: 1000px;
-}
-
-h1{
-    color: #001F3F;
-}
-
-h2{
-    color:#001F3F;
-}
-
-strong{
-    color:#5BC0DE;
-}
-
-p{
-    color: #555555;
+    color: #757575;
+    background-color: #FFFFFF;
+    box-shadow:  5px  5px 10px rgba(0, 0, 0, 0.3),
+                -5px -5px 10px rgba(0, 0, 0, 0.3),
+                 5px -5px 10px rgba(0, 0, 0, 0.3),
+                -5px  5px 10px rgba(0, 0, 0, 0.3);
+    width: 419px;
+    height: 1200px;
 
 }
 
-li{
-    color: #555555;
+.container {
+    position: relative;
+    max-width: 500px;
+    max-height: 400px;
+
+}
+
+.texto-sobre-imagem {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 80px;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);  /* Cor do texto */
+    font-size: 24px;  /* Tamanho da fonte */
+    font-family: Arial, sans-serif;  /* Fonte do texto */
+    z-index: 1;  /* Para garantir que o texto esteja sobre a imagem */
+}
+
+
+
+.left-panel{
+    padding: 10px;
+
+}
+
+.left-panel img{
+    padding-right: 10px;
+    width: 25px;
+    height: auto;
+ 
+}
+
+
+.left-panel .panelData{
+    padding: 5px;
+}
+
+.left-panel .panelDataTitle{
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+hr{
+    width: 90%;
+}
+
+/**body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    background-color: #001f2b; /* Azul escuro 
+    color: #d6d6d6; /* Branco para o texto principal 
+}
+
+main {
+    text-align: left;
+}
+
+.outside {
+    color: #d6d6d6; /* Branco para o texto 
+    margin-left: 3%;
+}
+
+article {
+    background-color: #009bd6; /* Azul claro para fundo dos artigos e rodapé 
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-width: 85%;
+}
+
+section {
+    max-width: 100%;
+    margin-left: 3%;
+    padding-left: 30px;
+    background-color: #009bd6; /* Azul claro para fundo dos itens de seção 
+    color: #d6d6d6; /* Branco para o texto nas seções mais escuras 
+    border-radius: 5px;
 }

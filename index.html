@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-
 <head>
-    <title>Davi Rios Resume / Github</title>
     <meta charset="UTF-8">
-    <meta name="author" content="Davi Rios">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Texto sobre Imagem</title>
 </head>
-
 <body>
-    <header>
-        <h1>Davi Rios dos Santos</h1>
-        <h2>Software Engineer</h2>
-        <nav><img href="../Resume/img/EuCurutiba.png"></nav>
+    <main>
+    <div class="container">
+        <img src="img/EuCurutiba.png" alt="Imagem">
+        <div class="texto-sobre-imagem">Davi Rios</div>
+    </div>
+    <div class="left-panel">
+        <div class="panelData"><img src="img/suitcase.png" width="17px" height="17px"> Software Engineer</div>
+        <div class="panelData"><img src="img/home.png" width="17px" height="17px">São Paulo, Brazil</div>
+        <div class="panelData"><img src="img/email.png" width="17px" height="17px">soirivad@outlook.com</div>
+        <div class="panelData"><img src="img/phone-call.png" width="17px" height="17px">+55(19)98771-6606</div>
+    </div>
+    <hr>
+    <div class="left-panel">
+        <div class="panelDataTitle"><img src="img/asterisk.png" width="17px" height="17px">Skills</div>
+            <div class="panelData">HTML, CSS, Bootstrap, JavaScript, React, Node.js</div>
+            <div class="panelData">Python, Kotlin, Java, C, C++, C#</div>
+            <div class="panelData">Git/GitHub</div>
+            <div class="panelData">SQL, MongoDB, AWS</div>
+    </div>
+    <hr>
+    <div class="left-panel">
+        <div class="panelDataTitle"><img src="img/earth-globe.png" width="17px" height="17px">Languages</div>
+            <div class="panelData">English - Advanced</div>
+            <div class="panelData">Portuguese - Native</div>
+            <div class="panelData">Spanish - Basic</div>
+    </div>
+
+
+</main>
+</body>
+</html>
+
+
+<!-- <header>
+        <h1 class="outside">Davi Rios dos Santos</h1>
+        <h2 class="outside">Software Engineer</h2>
+        <nav></nav>
     </header>
     <main>
         <section>
             <article>
                 <h2>PROFILE SUMMARY</h2>
+                <p>I am a software engineer with a strong foundation in code development. 
+                    My journey in IT began in 2015, sparking a deep passion for technology and coding. 
+                    Throughout my career, I have actively engaged with diverse teams, fostering a culture 
+                    of collaboration and continuous learning. I am committed to enhancing my skills by 
+                    adopting new practices and methodologies, ensuring the consistent improvement 
+                    of my work quality.
+                    Driven by curiosity, I explore emerging technologies and contribute to projects 
+                    with innovative solutions. Beyond coding proficiency, I prioritize effective teamwork, 
+                    clear communication, and a holistic understanding of business objectives. My dedication 
+                    to excellence and genuine enthusiasm for technology position me to make meaningful 
+                    contributions to future projects, embracing challenges as opportunities for growth and innovation.
+                </p>
+            </article>
+            <article>
+                <h2>WORK EXPERIENCE</h2>
+                <h2 class="subtitle">Software engineer - FITEC (Foundation for Technological Innovation)</h2>
                 <p>I am a software engineer with over 4 years of experience in code development.
                     My journey in IT began in 2015, and since then, I have been deeply passionate about technology,
                     coding, and the continuous enhancement of my skills. I actively engage with my teammates,
@@ -27,16 +72,7 @@
                     work.</p>
             </article>
             <article>
-                <h2>Work Experience</h2>
-                <h2 class="subtitle">SOFTWARE ENGINEER - FITEC (FOUNDATION FOR TECHNOLOGICAL INNOVATION)</h2>
-                <p>I am a software engineer with over 4 years of experience in code development.
-                    My journey in IT began in 2015, and since then, I have been deeply passionate about technology,
-                    coding, and the continuous enhancement of my skills. I actively engage with my teammates,
-                    learning from them and consistently adopting new practices and methods to improve the quality of my
-                    work.</p>
-            </article>
-            <article>
-                <h2>Skills</h2>
+                <h2>SKILLS</h2>
                 <ul>
                     <li>
                         <strong>Programming Languages:</strong>
@@ -53,24 +89,7 @@
                             <li>C</li>
                             <li>C++</li>
                             <li>C#</li>
-                        </ul>
-                    </li>
-
-                    <li><strong>Technical Proficiencies:</strong>
-                        <ul>
-                            <li>Git/GitHub</li>
-                            <li>RESTful APIs</li>
-                            <li>SQL</li>
-                            <li>MongoDB</li>
-                            <li>AWS (Amazon Web Services)</li>
-                            <li>Spring Framework (for Java)</li>
-                            <li>SQL</li>
-                            <li>Microsoft Office</li>
-                            <li>Canva</li>
-                        </ul>
-                    </li>
-                    <li><strong>Technical Proficiencies:</strong>
-                        <ul>
+                    
                             <li>Git/GitHub</li>
                             <li>RESTful APIs</li>
                             <li>SQL</li>
@@ -86,7 +105,6 @@
             </article>
            
         </section>
-    </main>
     <aside>
         <section>
             <h2>Education</h2>
@@ -98,6 +116,7 @@
             <p>Colégio Técnico de Campinas - Unicamp</p>
         </section>
         <section>
+            <ul>
             <li><strong>Language</strong>
                 <ul>
                     <li>Portuguese -Native</li>
@@ -105,19 +124,17 @@
                     <li>Spanish - Basic</li>
                 </ul>
             </li>
+            <li><strong>Certified</strong>
+                <ul>
+                    <li>Ultimate AWS Certified Cloud Practitioner CLF-CO2 (Udemy)</li>
+                    <li>English - Advanced</li>
+                    <li>Spanish - Basic</li>
+                </ul>
+            </li>
+        </ul>
         </section>
     </aside>
     <footer>
-        <li><strong>Certified</strong>
-            <ul>
-                <li>Ultimate AWS Certified Cloud Practitioner CLF-CO2 (Udemy)</li>
-                <li>English - Advanced</li>
-                <li>Spanish - Basic</li>
-            </ul>
-        </li>
+        
     </footer>
-</body>
-
-</html>
-
-</html>
+</main> -->
