@@ -1,140 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Texto sobre Imagem</title>
 </head>
+
 <body>
     <main>
-    <div class="container">
-        <img src="img/EuCurutiba.png" alt="Imagem">
-        <div class="texto-sobre-imagem">Davi Rios</div>
-    </div>
-    <div class="left-panel">
-        <div class="panelData"><img src="img/suitcase.png" width="17px" height="17px"> Software Engineer</div>
-        <div class="panelData"><img src="img/home.png" width="17px" height="17px">São Paulo, Brazil</div>
-        <div class="panelData"><img src="img/email.png" width="17px" height="17px">soirivad@outlook.com</div>
-        <div class="panelData"><img src="img/phone-call.png" width="17px" height="17px">+55(19)98771-6606</div>
-    </div>
-    <hr>
-    <div class="left-panel">
-        <div class="panelDataTitle"><img src="img/asterisk.png" width="17px" height="17px">Skills</div>
-            <div class="panelData">HTML, CSS, Bootstrap, JavaScript, React, Node.js</div>
-            <div class="panelData">Python, Kotlin, Java, C, C++, C#</div>
-            <div class="panelData">Git/GitHub</div>
-            <div class="panelData">SQL, MongoDB, AWS</div>
-    </div>
-    <hr>
-    <div class="left-panel">
-        <div class="panelDataTitle"><img src="img/earth-globe.png" width="17px" height="17px">Languages</div>
-            <div class="panelData">English - Advanced</div>
-            <div class="panelData">Portuguese - Native</div>
-            <div class="panelData">Spanish - Basic</div>
-    </div>
-
-
-</main>
-</body>
-</html>
-
-
-<!-- <header>
-        <h1 class="outside">Davi Rios dos Santos</h1>
-        <h2 class="outside">Software Engineer</h2>
-        <nav></nav>
-    </header>
-    <main>
-        <section>
-            <article>
-                <h2>PROFILE SUMMARY</h2>
-                <p>I am a software engineer with a strong foundation in code development. 
-                    My journey in IT began in 2015, sparking a deep passion for technology and coding. 
-                    Throughout my career, I have actively engaged with diverse teams, fostering a culture 
-                    of collaboration and continuous learning. I am committed to enhancing my skills by 
-                    adopting new practices and methodologies, ensuring the consistent improvement 
-                    of my work quality.
-                    Driven by curiosity, I explore emerging technologies and contribute to projects 
-                    with innovative solutions. Beyond coding proficiency, I prioritize effective teamwork, 
-                    clear communication, and a holistic understanding of business objectives. My dedication 
-                    to excellence and genuine enthusiasm for technology position me to make meaningful 
-                    contributions to future projects, embracing challenges as opportunities for growth and innovation.
-                </p>
-            </article>
-            <article>
-                <h2>WORK EXPERIENCE</h2>
-                <h2 class="subtitle">Software engineer - FITEC (Foundation for Technological Innovation)</h2>
-                <p>I am a software engineer with over 4 years of experience in code development.
-                    My journey in IT began in 2015, and since then, I have been deeply passionate about technology,
-                    coding, and the continuous enhancement of my skills. I actively engage with my teammates,
-                    learning from them and consistently adopting new practices and methods to improve the quality of my
-                    work.</p>
-            </article>
-            <article>
-                <h2>SKILLS</h2>
-                <ul>
-                    <li>
-                        <strong>Programming Languages:</strong>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>Node.js</li>
-                            <li>Dart</li>
-                            <li>Kotlin</li>
-                            <li>C</li>
-                            <li>C++</li>
-                            <li>C#</li>
+        <div id="position">
+            <article class="panel">
+                <section class="container">
+                    <img src="img/EuCurutiba.png" alt="Imagem">
+                    <div class="texto-sobre-imagem">Davi Rios</div>
+                </section>
+                <section class="left-panel">
+                    <div class="panelData"><img src="img/suitcase.png" width="17px" height="17px"> Software Engineer
+                    </div>
+                    <div class="panelData"><img src="img/home.png" width="17px" height="17px">São Paulo, Brazil</div>
+                    <div class="panelData"><img src="img/email.png" width="17px" height="17px">soirivad@outlook.com
+                    </div>
+                    <div class="panelData"><img src="img/phone-call.png" width="17px" height="17px">+55(19)98771-6606
+                    </div>
+                </section>
+                <hr>
+                <section class="left-panel">
+                    <td colspan="4"><img src="img/asterisk.png" width="17px" height="17px"> Skills</td>
+                    <table class="skills-table">
+                    <tr>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>Bootstrap</td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Reactjs</td>
+                            <td>Node.js</td>
+                            <td>Python</td>
+                            <td>Kotlin</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>C</td>
+                            <td>C++</td>
+                            <td>C#</td>
+                        </tr>
+                        <tr>
+                            <td>Git/GitHub</td>
+                            <td>SQL/M.SQL</td>
+                            <td>SW/HW/FW</td>
+                            <td>AWS</td>
+                        </tr>
+                    </table>
                     
-                            <li>Git/GitHub</li>
-                            <li>RESTful APIs</li>
-                            <li>SQL</li>
-                            <li>MongoDB</li>
-                            <li>AWS (Amazon Web Services)</li>
-                            <li>Spring Framework (for Java)</li>
-                            <li>SQL</li>
-                            <li>Microsoft Office</li>
-                            <li>Canva</li>
-                        </ul>
-                    </li>
-                </ul>
+                    
+                    
+                    <!-- <div class="panelDataTitle"><img src="img/asterisk.png" width="17px" height="17px">Skills</div>
+                    <div class="panelData">HTML, CSS, Bootstrap, JavaScript, React, Node.js</div>
+                    <div class="panelData">Python, Kotlin, Java, C, C++, C#</div>
+                    <div class="panelData">Git/GitHub</div>
+                    <div class="panelData">SQL, MongoDB, AWS</div> -->
+                </section>
+                <hr>
+                <section class="left-panel">
+                    <div class="panelDataTitle"><img src="img/earth-globe.png" width="17px" height="17px">Languages
+                    </div>
+                    <div class="panelData">English - Advanced</div>
+                    <div class="panelData">Portuguese - Native</div>
+                    <div class="panelData">Spanish - Basic</div>
+                </section>
             </article>
-           
-        </section>
-    <aside>
-        <section>
-            <h2>Education</h2>
-            <strong>Bachelor's degree completed</strong>
-            <p>2019-2021</p>
-            <p>Fatec Campinas - Faculdade de Tecnologia de Campinas</p>
-            <strong>Graduated from technical school</strong>
-            <p>2015-2018</p>
-            <p>Colégio Técnico de Campinas - Unicamp</p>
-        </section>
-        <section>
-            <ul>
-            <li><strong>Language</strong>
-                <ul>
-                    <li>Portuguese -Native</li>
-                    <li>English - Advanced</li>
-                    <li>Spanish - Basic</li>
-                </ul>
-            </li>
-            <li><strong>Certified</strong>
-                <ul>
-                    <li>Ultimate AWS Certified Cloud Practitioner CLF-CO2 (Udemy)</li>
-                    <li>English - Advanced</li>
-                    <li>Spanish - Basic</li>
-                </ul>
-            </li>
-        </ul>
-        </section>
-    </aside>
-    <footer>
-        
-    </footer>
-</main> -->
+            <div id="positionUpDown">
+
+                <article class="panel2">
+                    <section class="right-panel">
+                        <div class="titleTab">Work Experience</div>
+                        <div class="subtitleTab">Back End Developer / FITEC</div>
+                        <div class="dataJob">Jan 2021 - <span>Current </span></div>
+                        <div class="text">Responsible for developing team projects focused on technological solutions
+                            for
+                            Telecommunications, Information Technology,
+                            Electrical Energy, Biomedical Equipment, Industrial Automation (4.0), Assistive
+                            Technologies,
+                            Automotive Industry, and Logistics cycles. Working in parallel with teams from both the
+                            company
+                            and the client, he always monitored project development.
+                        </div>
+                        <hr>
+                        <div class="subtitleTab">Teacher/ FITEC</div>
+                        <div class="dataJob">Jan 2019 - 2021</div>
+                        <div class="text">I have taught programming languages to children and teenagers,
+                            holdingmonthlymeetings with parents tomonitortheir children's
+                            progress and presentresults. Alongside the secretariat, I assisted otherteachers facing
+                            difficulties in both programming content and student interactions
+                        </div>
+
+                        <!-- Add more work experience sections if needed -->
+                    </section>
+                    <article class="panel3">
+
+                        <section class="right-panel">
+                            <div class="titleTab">Education</div>
+                            <div class="subtitleTab">Bachelor's Degree in Systems Analysis and Development</div>
+                            <div class="dataJob">Fatec Campinas - Faculdade de Tecnologia de Campinas</div>
+                            <div class="text">2019 - 2021</div>
+                            <hr>
+                            <div class="subtitleTab">Technical High School Diploma</div>
+                            <div class="dataJob">Colégio Técnico de Campinas - Unicamp</div>
+                            <div class="text">2015 - 2018</div>
+                        </section>
+                    </article>
+
+                </article>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
