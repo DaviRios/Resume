@@ -200,4 +200,9 @@ footer{
 footer img {
     -webkit-filter: invert(1);
     filter: invert(1);
-    }
+}
+
+a:visited{
+    color: #ffd261;
+    
+}
